@@ -56,7 +56,7 @@ para resolver este problema. Puede encontrar más material en la documentación 
 frameworks o en proyectos opensource en github.
 
 Para ejecutar el ejemplo, dirijase a la carpeta `ej1` y ejecute `python3 exemplo.py` previamente
-habiendo instalado todos los packetes python necesarios (se provee el archive `requirements.txt`).
+habiendo instalado todos los paquetes python necesarios (se provee el archivo `requirements.txt`).
 Para visualizar la waveform generada, es necesario tener instalado el programa
 [GTKWave](http://gtkwave.sourceforge.net/) y ejecutar `gtkwave incrementador.vcd`
 
