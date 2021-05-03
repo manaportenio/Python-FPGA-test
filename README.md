@@ -20,13 +20,12 @@ En el diseño de una radio para satélites de comunicación, es necesario realiz
 operaciones algebraicas sobre fuentes de datos provenientes de diferentes antenas.
 Estas operaciones deben realizarse lo más rápido posible (500 millones de operaciones
 por segundo aproximadamente). Es por ello, que se decidió que el procesamiento de estos
-datos lo haga una FPGA. La primer operación que se tiene que resolver es la suma
-con lógica de saturación.
+datos lo haga una FPGA. La primer operación que se tiene que resolver es la suma.
 
 ## Enunciado
 
-Realizar un sumador con lógica de saturación de números signados complemento a 2
-que cumpla con la siguiente interfaz:
+Realizar un sumador con lógica de números signados complemento a 2 que cumpla con la siguiente
+interfaz:
 
 ```
            |--------------|
@@ -52,7 +51,7 @@ siguientes características:
 * La señal `_valid` no puede depender depender de la señal `_ready` para ir a 1.
 
 Todas los datos que salgan por el puerto `r` deben ser un resultado valido entre los datos
-del puerto `a` y puerto `b`.
+del puerto `a` y puerto `b`. No se debe realizar corroboración de overflow.
 
 Para realizar este ejercicio, usted debe:
 * Cumplir con las especificaciones enunciadas anteriormente
