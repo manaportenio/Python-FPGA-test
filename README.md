@@ -73,7 +73,7 @@ es necesario tener instalado el programa [GTKWave](http://gtkwave.sourceforge.ne
 `gtkwave incrementador.vcd`
 
 Ambos SW extras (iverilog y gtkwave) se distribuyen en los repositorios de multiples distribuciones
-linux, se intalan con un simple comand apt-get, yum, pacman, etc.
+linux, se instalan con un simple comando apt-get, yum, pacman, etc.
 
 
 # Ejercicio #2
