@@ -1,5 +1,17 @@
 # Candidate test!
 
+Bienvenidos a esta etapa de evaluación para formar parte del equipo de Novo Space.
+Durante el desarrollo de este test se evaluarán herramientas que posiblemente
+nunca hayan utilizado. La idea es que sea lo más ameno posible y que, en caso de no quedar,
+también haya sido util para aprender cosas nuevas. La intención de este test es ver
+la capacidad de adaptación y de resolución de problemas del postulante, asi como también
+la comunicación. Sientase libre de hacernos cualquier tipo de pregunta que posea, que
+con gusto intentaremos aclararla.
+
+Aclarado esto, solo me queda decir una cosa: BUENA SUERTE!!
+
+---
+
 # Ejercicio #1
 
 ## Introducción
