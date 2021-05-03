@@ -72,6 +72,9 @@ el simulador [iverilog](http://iverilog.icarus.com/). Para visualizar la wavefor
 es necesario tener instalado el programa [GTKWave](http://gtkwave.sourceforge.net/) y ejecutar
 `gtkwave incrementador.vcd`
 
+Ambos SW extras (iverilog y gtkwave) se distribuyen en los repositorios de multiples distribuciones
+linux, se intalan con un simple comand apt-get, yum, pacman, etc.
+
 
 # Ejercicio #2
 
