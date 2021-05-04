@@ -47,6 +47,11 @@ b_ready <--|              |
 Tanto las dos entradas como la salida cumplen un protocolo genérico stream con las
 siguientes características:
 
+* Las señales `_data` tienen N bits definidas durante la instanciación.
+* La cantidad de bits de `r_data` quedan a definir por el diseñador. Algunas posibles alternativas son:
+    * A definir durante la instanciación
+    * Igual que la entrada
+    * Un bit mas que la entrada 
 * El dato `_data` es leído por el sumidero cuando `_valid` y `_ready` están en 1
 * La señal `_valid` no puede depender depender de la señal `_ready` para ir a 1.
 
@@ -171,6 +176,11 @@ Para realizar la entrega, forkiar este repositorio y trabajar sobre el mismo. Cu
 creado y subido a alguna plataforma (gitlab o github), danos el acceso para poder verlo.
 Cuando esté listo para revisar, enviarnos un e-mail con el url al repositorio y todas las
 aclaraciones que tengas.
+
+# Para los usuarios de Windows
+
+Todo este test fue probado para que funcione en plataformas corriendo linux. No hay garantías
+de que funcione en Windows. Si encuentra un bug en Windows por favor reportelo.
 
 
 # Contacto
